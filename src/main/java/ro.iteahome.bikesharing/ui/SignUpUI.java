@@ -10,7 +10,6 @@ import java.util.Scanner;
 
 public class SignUpUI {
 
-
     public static void displaySignUp() {
         User user = new User();
         Scanner scanner = new Scanner(System.in);

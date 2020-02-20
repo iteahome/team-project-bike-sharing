@@ -9,6 +9,7 @@ public class MainUI {
 
     void enteringUI() {
         printMainMessageAndHandleAction("Welcome to the BikeSharing System. Would you like to: \n" + "1. Log in.\n" + "2. Sign up.\n");
+
     }
 
     public static void printMainMessageAndHandleAction(String message) {

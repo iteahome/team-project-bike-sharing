@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class UserOptionsUI {
     public static void enteringUserOptionsUI() {
         printMainMessageAndHandleAction("What do you want to do today? \n" + "1. Ride.\n" + "2. View Previous Rides.\n" + "3. View All Stations.\n" + "4. View Most Used Stations.\n" + "5. Most Used Bikes.\n");
+
     }
 
     public static void printMainMessageAndHandleAction(String message) {
