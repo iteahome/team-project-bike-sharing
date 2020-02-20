@@ -7,7 +7,7 @@ import java.util.Scanner;
 
 public class MainUI {
 
-    public static void mainUIentry(String[] args) {
+    void enteringUI() {
         printMainMessageAndHandleAction("Welcome to the BikeSharing System. Would you like to: \n" + "1. Log in.\n" + "2. Sign up.\n");
     }
 
