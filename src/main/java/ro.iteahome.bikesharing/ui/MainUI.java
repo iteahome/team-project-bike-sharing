@@ -1,10 +1,13 @@
-package ro.iteahome.bikesharing.ui;
+package ro.iteahome.bikesharing;
+import ro.iteahome.bikesharing.ui.LoginUI;
+import ro.iteahome.bikesharing.ui.SignUpUI;
 
 import java.util.Scanner;
 
+
 public class MainUI {
 
-    private static void (String[] args) {
+    public static void mainUIentry(String[] args) {
         printMainMessageAndHandleAction("Welcome to the BikeSharing System. Would you like to: \n" + "1. Log in.\n" + "2. Sign up.\n");
     }
 
